@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class PhotosConfig(AppConfig):
+class PetsConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'Pestagram_Python_Web_Basics.photos'
+    name = 'petstagram.pets'

@@ -1,5 +1,5 @@
 """
-WSGI config for Pestagram_Python_Web_Basics project.
+WSGI config for petstagram project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Pestagram_Python_Web_Basics.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'petstagram.settings')
 
 application = get_wsgi_application()
