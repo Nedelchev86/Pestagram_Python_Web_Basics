@@ -17,5 +17,5 @@ class Pet(models.Model):
             self.slug = slugify(f"{self.name}-{self.id}")
         return super().save(*args, **kwargs)
 
-    def __unicode__(self):
+    def __str__(self):
         return self.name

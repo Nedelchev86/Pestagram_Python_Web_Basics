@@ -13,4 +13,5 @@ class Photo(models.Model):
     description = models.TextField(max_length=300, validators=[MinLengthValidator(10)], null=True, blank=True)
     location = models.CharField(max_length=30, blank=True, null=True)
     tagged_pet = models.ManyToManyField(to=Pet, blank=True)
-    date_of_publication = models.DateTimeField(auto_now= True)
+    date_of_publication = models.DateTimeField(auto_now=True)
+
